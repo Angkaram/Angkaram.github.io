@@ -19,7 +19,9 @@ function radioButtonAlert() {
         alert("Bolding, underlining, and blue-ing");
     } else if (boringRadio.checked) {
         textarea.style.fontWeight = "normal";
-        alert("No bold!");
+        textarea.style.color = "black"; // Change text color to black
+        textarea.style.textDecoration = "none";
+        alert("No bold, underlining, and blue-ing!");
     }
 }
 
